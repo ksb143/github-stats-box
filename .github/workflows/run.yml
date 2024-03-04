@@ -21,9 +21,9 @@ jobs:
             # - run: npm ci
             - run: npx github-stats-box@1
               env:
-                  GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
+                  GH_TOKEN: ${{ secrets.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 }} # Do not edit, defined in secrets
 
                   # Edit the following environment variables
-                  GIST_ID: 1cc900d92b9acc15786d7553b46a2cdf # The ID portion from your gist url
+                  GIST_ID: 8bc23b34326c9d25243773f827769f9c # The ID portion from your gist url
                   ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
                   K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
